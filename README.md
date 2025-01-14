@@ -132,9 +132,14 @@ Atomic swaps are a fundamental component of the protocol, providing a mechanism 
 - **Transparency**: The process is fully transparent and verifiable on the blockchain, reducing the risk of fraud and increasing trust in the system itself rather than in individual participants.
 - **Efficiency**: Atomic swaps can be executed directly between parties without the need for a centralized exchange or a trusted oracle, reducing transaction costs and time, and further minimizing reliance on trusted entities.
 
-### Permissionlessly extensible
+### Modular and Extensible Design
 
-The modular design of the solution was selected to enable permissionless integration with new blockchains, allowing independent developers to extend the protocol without requiring permission. This approach fosters decentralization and innovation within the cross-chain ecosystem.
+The protocol's modular design is a key feature that allows for seamless integration with new blockchains without requiring permission from a central authority. The benefits of this approach include:
+
+- **Flexibility**: The modular architecture enables developers to add support for new blockchains or features independently, allowing the protocol to adapt quickly to technological advancements and market demands.
+- **Innovation**: By removing barriers to entry, the protocol encourages innovation and experimentation, as developers can implement and test new ideas without needing approval from a governing body.
+- **Scalability**: The ability to integrate new blockchains and features without disrupting existing functionality ensures that the protocol can scale efficiently as the blockchain ecosystem grows.
+- **Decentralization**: This approach aligns with the core principles of decentralization by empowering individual developers and communities to contribute to the protocol's evolution, reducing reliance on centralized decision-making.
 
 ### Competitive pricing
 
