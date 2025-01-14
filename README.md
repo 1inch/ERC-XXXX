@@ -141,11 +141,19 @@ The protocol's modular design is a key feature that allows for seamless integrat
 - **Scalability**: The ability to integrate new blockchains and features without disrupting existing functionality ensures that the protocol can scale efficiently as the blockchain ecosystem grows.
 - **Decentralization**: This approach aligns with the core principles of decentralization by empowering individual developers and communities to contribute to the protocol's evolution, reducing reliance on centralized decision-making.
 
-### Competitive pricing
+### Competitive Pricing
 
-TODO
+The protocol leverages a Dutch auction mechanism to ensure competitive pricing for cross-chain asset exchanges. This approach offers several advantages:
 
+- **Market-Driven Pricing**: By utilizing a Dutch auction, the protocol allows the price to be determined by market demand. Resolvers compete to fulfill orders by offering the best possible rates, which naturally drives prices down to the most competitive level.
+  
+- **Incentivized Participation**: The auction format incentivizes resolvers to participate actively, as they have the opportunity to secure trades by offering attractive prices. This competition among resolvers benefits traders by providing them with better exchange rates.
 
+- **Dynamic Adjustments**: The Dutch auction mechanism dynamically adjusts prices based on real-time market conditions. This ensures that the pricing remains fair and reflective of the current market environment, reducing the risk of overpricing or underpricing.
+
+- **Partial Fills**: The protocol supports partial fills, allowing resolvers to fulfill portions of an order. This feature enables even smaller liquidity providers to participate in the auction, increasing the overall liquidity and competitiveness of the market.
+
+By implementing these strategies, the protocol ensures that traders receive the most favorable pricing available, enhancing the overall efficiency and attractiveness of the cross-chain asset exchange process.
 
 ## Backwards Compatibility
 
