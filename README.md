@@ -51,8 +51,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. **Trader** - the party initiating the cross-chain asset exchange.
 2. **Resolver** - the party accepting the cross-chain asset exchange.
 3. **Operator** - the party that facilitates the use of protocol by providing neccesssary on-chain and off-chain services to both traders and resolvers.
-4. **Source chain** - (trader's funds) **TODO**
-5. **Destination chain** - (resolver's funds) **TODO**
+4. **Source chain** - The blockchain where the trader's assets are initially located and locked during the exchange process before being unlocked for the resolver.
+5. **Destination chain** - The blockchain where the resolver's assets are initially located and locked during the exchange process before being unlocked for the trader.
 6. **Trade** - the process of exchange of **Trader's** funds on the **Source chain** to **Resolver's** funds on the **Destination chain**.
 7. **Order** - an offchain structure with a digital signature, confirming **Trader**'s intent to exchange source asset to destination asset that includes dutch auction setup.
 8. **HLTC (escrow)** - Hashed Timelock Contract, a smart contract that locks assets until a specific condition is met.
