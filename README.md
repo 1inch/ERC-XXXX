@@ -123,9 +123,14 @@ Any **Order**-based restrictions Intent protocol SHOULD provide order-based trai
   TODO: Remove this comment before submitting
 -->
 
-### Trustless (self-custody?)
+### Trustless
 
-Atomic swaps were chosen as the underlying mechanism due to their ultimate security and trustless nature. Atomicity allows ensuring that either both parties successfully exchange assets or the entire swap is canceled, atomic swaps eliminate the need for trusted intermediaries and provide users with full control over their assets throughout the process.
+Atomic swaps are a fundamental component of the protocol, providing a mechanism for asset exchange that eliminates the need for trust between parties. The key benefits of atomic swaps include:
+
+- **Security**: Atomic swaps ensure that either both parties successfully exchange assets or the entire swap is canceled. This guarantees that no party can lose their assets without receiving the agreed-upon assets in return, thus removing the need to trust the counterparty.
+- **Decentralization**: By eliminating the need for intermediaries, atomic swaps maintain the decentralized nature of blockchain technology, allowing users to retain full control over their assets without relying on trusted third parties.
+- **Transparency**: The process is fully transparent and verifiable on the blockchain, reducing the risk of fraud and increasing trust in the system itself rather than in individual participants.
+- **Efficiency**: Atomic swaps can be executed directly between parties without the need for a centralized exchange or a trusted oracle, reducing transaction costs and time, and further minimizing reliance on trusted entities.
 
 ### Permissionlessly extensible
 
